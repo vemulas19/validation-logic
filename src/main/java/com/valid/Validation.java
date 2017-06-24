@@ -12,6 +12,10 @@ public class Validation {
 		return true;
 	}
 	
+	public void test(){
+		
+	}
+	
 	public boolean mobileNumberValidation(String mobile){
 		if(mobile.length() != 10) {
 			return false;
